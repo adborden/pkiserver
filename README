@@ -1,0 +1,1 @@
+Quick and dirty django server to work with an enyojs app for enyo hackathon. Upload a file, return a PGP digital signature.

@@ -1,0 +1,6 @@
+<p>Upload a file</p>
+<form action="/sign/" enctype="multipart/form-data" method="post">
+    {% csrf_token %}
+    <input type="file" name="file_data" />
+    <input type="submit" name="Submit" />
+</form>
